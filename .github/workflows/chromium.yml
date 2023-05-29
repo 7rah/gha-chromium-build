@@ -17,7 +17,6 @@ jobs:
           sudo apt-get purge -y clang lldb lld
           sudo apt-get purge -y firefox
           sudo rm -rf /usr/local/share/chromium
-          sudo apt-get purge -y mongodb-org
           sudo rm -rf /usr/share/swift
           sudo apt-get purge -y moby-engine moby-cli moby-buildx moby-compose
           sudo apt-get purge -y podman buildah skopeo

@@ -14,8 +14,7 @@ jobs:
       - name: Remove extra software
         run: |
           sudo apt-get purge -y gfortran-9 gfortran-10
-          sudo apt-get purge -y clang-10 lldb-10 lld-10
-          sudo apt-get purge -y clang-12 lldb-12 lld-12
+          sudo apt-get purge -y clang lldb lld
           sudo apt-get purge -y firefox
           sudo rm -rf /usr/local/share/chromium
           sudo apt-get purge -y mongodb-org
